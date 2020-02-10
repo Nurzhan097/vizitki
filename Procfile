@@ -1,1 +1,1 @@
-web: gunicorn wep:app
+web: gunicorn VizitkiAPIProject.wsgi --log-file -
